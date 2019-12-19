@@ -1,0 +1,276 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color: #FFF;
+	background-image : url("../images/fl.png");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : center center;
+
+}
+
+/*::selection
+{
+	background: #CC6666;
+	background-color: #CC6666;
+	color: #FFF;
+}*/
+
+a
+{
+	color: maroon;
+}
+
+#header
+{
+	margin:0em 0em 0em 0em;
+	padding:0em 0em;
+	height : 80px;
+	font-family: arial;
+	background-color : #CCC;
+	/*background-color : #CD5C5C;*/
+}
+
+#header h1
+{
+	padding-left : 0.5em;
+	padding-right : 0.5em;
+	padding-top : 0.4em;
+	font-size: 2.5em;
+	text-align : center;
+	color : white;
+}
+
+#mainColumn
+{
+	font-family: 'Times New Roman', serif;
+	font-size:1.2em;
+	line-height : 1.2em;
+}
+
+#mainColumn h2
+{
+	color: #8B0000;
+	font-family: arial;
+	font-size:1.4em;
+}
+
+#mainColumn h3
+{
+	padding-left : 2em;
+	color: #8B0000;
+	font-family: arial;
+	font-size:1.2em;
+}
+
+#mainColumn P
+{
+	padding-left : 2em;
+	padding-right : 2em;
+	text-align : justify;
+	/*line-height : 2em*/;
+}
+
+.mytable
+{
+	margin-left : 2em;
+	width : 65%;
+	background: #CC7777;
+	font-family : arial;
+	/*border: solid #990000;*/
+}
+
+.mytable th
+{
+	background: maroon;
+    color: white;
+    text-align: center;
+}
+
+.mytable tr:hover td
+{
+	background: maroon;
+	color: white;
+}
+
+
+tr.even
+{
+	background: #fff;
+}
+.leftIMG 
+{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+   
+.rightIMG  
+{
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+.hl
+{
+	color: #8B0000;
+	font-weight : bold;
+}
+
+li
+{
+	color: maroon;
+}
+
+.liText
+{
+	color: #000;
+}
+
+#footer
+{
+	/*padding:2em 4em;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left:2em;
+	height:2em;
+	background-color : #CCC;
+}
+
+#footer P
+{
+	font-family: monospace;
+	font-size : 1em;
+	color: #000;
+}
+
+#leftColumn
+{
+	background-color : maroon;
+	/*width:180px;*/
+	width : 12em;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0px;
+	margin: 0px;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: arial;
+	text-align: center;
+	opacity : 0.9;
+}
+
+#leftColumn hr
+{
+	height:1px;
+	border:none;
+	color: #FFF;
+	background-color: #FFF;
+}
+
+#leftColumn a
+{
+	color: #FFFFFF;
+}
+
+#leftColumn a:visited
+{
+	color: #FFCCCC;
+}
+
+#leftColumn a:hover
+{
+	color: #000000;
+}
+
+#leftColumn a.sublist
+{
+	padding-left : 1em;
+}
+
+
+#leftColumn P
+{
+	padding-top: 1em;
+	text-align: left;
+}
+
+
+
+#rightColumn
+{
+	background-color : maroon;
+	/*width:180px;*/
+	width : 12em;
+	height:100%;
+	position: fixed;
+	top:0;
+	right:0px;
+	margin: 0px;
+	padding-top : 8em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align : center;
+	opacity : 0.9;
+}
+
+html>body #mainColumn 
+{
+	margin-top : 4em;
+	/*margin-left:16em;
+	margin-right:16em;*/
+	margin-left: 240px;
+	margin-right: 240px;
+}
+
+html>body #header
+{
+	margin-top: 1em;
+	margin-left:15em;
+	margin-right:15em;
+}
+
+html>body #footer
+{
+	margin-top : 2em;
+	margin-left:15em;
+	margin-right:15em;
+}
+
+.imgBoxR
+{
+	float: right; /* Выравнивание по правому краю */
+    /*border: 1px solid maroon; /* Параметры рамки */
+    border:none;
+    padding: 7px; /* Поля внутри блока */
+    margin: 5px 5px 5px 5px;  /* Отступы вокруг */
+    background: #CCC; /* Цвет фона */ 
+}
+
+.imgBoxR p
+{
+	font-size: 0.9em;
+	font-family: arial;
+	color: #770000;
+	margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+.imgBoxL
+{
+	float: left; /* Выравнивание по правому краю */
+    /*border: 1px solid maroon; /* Параметры рамки */
+    border:none;
+    padding: 7px; /* Поля внутри блока */
+    margin: 5px 5px 5px 5px;  /* Отступы вокруг */
+    background: #CCC; /* Цвет фона */ 
+}
+
+.imgBoxL p
+{
+	font-size: 0.9em;
+	font-family: arial;
+	color: #770000;
+	margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
